@@ -1,0 +1,57 @@
+
+├── Access01
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── config					# 增强的配置文件，用于项目参数配置
+│   │   ├── __init__.py
+│   │   └── databases.py		# mysql 的配置文件，允许通过pymysql连接
+│   ├── migrations
+│   │   ├── __init__.py
+│   ├── models.py
+│   ├── templatetags
+│   │   ├── __init__.py
+│   │   ├── private.py			# 私有组件：用于非公共属性的组件开发，放置局部页面的少量不可重复组件
+│   │   ├── protected.py		# 保护组件：模块级组件，重复次数较多时存放
+│   │   └── public.py			# 公共组件：几乎每个页面都需要的组件
+│   ├── tests.py
+│   └── views.py				# 可暴露型视图模块
+│
+│
+├── AccessorUnit
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+│
+├── LICENSE
+├── README.md
+├── manage.py
+├── media						# 媒体素材，如头像、用户个人的云文件等
+│   └── avatars
+├── requirements.txt
+├── sqlite
+│
+│
+├── static
+│   ├── css
+│   ├── images
+│   ├── js
+│   ├── logo
+│   ├── plugins					# jquery/bs4等，建议使用CDN而不是本地静态文件
+│   └── svgs
+│
+│
+├── templates
+│   ├── 404.html
+│   ├── components
+│   │   ├── private				# 私有组件
+│   │   ├── protected			# 保护组件
+│   │   └── public				# 公共组件
+│   │       └── navbar.html
+│   ├── login.html
+│   └── pages
+│       └── index.html
+│
+└── worklogs.txt
