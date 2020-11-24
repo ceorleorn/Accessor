@@ -1,2 +1,5 @@
 AccessorUnit:
     PART_TYPE: controller
+
+SERVER: ssh dandelioncore@47.101.136.85 -22922
+NOTICE: PLease read README.txt first!
