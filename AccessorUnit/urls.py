@@ -4,6 +4,6 @@ from Access01 import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.login),
+    path("admin/", admin.site.urls),
+    path("", views.login),
 ]

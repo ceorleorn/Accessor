@@ -6,11 +6,10 @@
 import os
 from AccessorUnit import settings as setting
 
-
-class Database:
-	DBs = {
-		'default': {
-	        'ENGINE': 'django.db.backends.sqlite3',
-	        'NAME': 'sqlite',
-		}
-	}
+class Database():
+    DBs = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": "sqlite",
+        }
+    }

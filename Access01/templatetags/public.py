@@ -4,7 +4,8 @@ from django.db.models.functions import TruncMonth
 
 register = template.Library()
 
-@register.inclusion_tag('components/public/navbar.html')
+
+@register.inclusion_tag("components/public/navbar.html")
 def get_navbar_header():
 
     return locals()
